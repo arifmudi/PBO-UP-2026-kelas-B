@@ -7,8 +7,12 @@ Prodi Teknik Informatika, Fakultas Teknik, Universitas Pahlawan Tuanku Tambusai 
 
 | Tugas | Mulai | Tenggat (Pull Request sudah dibuat) |
 |---|---|---|
-| P01 — Lingkungan kerja dan tiga gerbang | sudah berjalan | **Sabtu, 3 Oktober 2026, pukul 23.59 WIB** |
-| P02 — Kelas `Penyewa` dan `AlatTani` | Minggu, 4 Oktober 2026 | **Sabtu, 10 Oktober 2026, pukul 23.59 WIB** |
+| P01 — Lingkungan kerja dan tiga gerbang | sudah berjalan | Sabtu, 10 Oktober 2026, pukul 23.59 WIB (sudah lewat) |
+| P02 — Kelas `Penyewa` dan `AlatTani` | Minggu, 4 Oktober 2026 | **Sabtu, 24 Oktober 2026, pukul 23.59 WIB** |
+
+Tenggat Kelas B disesuaikan dosen pada 17 Oktober 2026 karena satu pertemuan tidak berlangsung:
+P01 menjadi 10 Oktober, P02 diperpanjang sampai 24 Oktober. P01 yang belum dikumpulkan tetap
+dikumpulkan lewat PR dan dihitung terlambat sejak 10 Oktober.
 
 Keterlambatan dihitung dari **waktu Pull Request dibuat** (dicatat GitHub) dan dikurangi
 **5 poin per hari**. Commit di fork saja belum dihitung mengumpulkan — buat PR-nya sebelum tenggat.
