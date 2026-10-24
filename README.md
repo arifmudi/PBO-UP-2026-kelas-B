@@ -9,6 +9,13 @@ Prodi Teknik Informatika, Fakultas Teknik, Universitas Pahlawan Tuanku Tambusai 
 |---|---|---|
 | P01 — Lingkungan kerja dan tiga gerbang | sudah berjalan | Sabtu, 10 Oktober 2026, pukul 23.59 WIB (sudah lewat) |
 | P02 — Kelas `Penyewa` dan `AlatTani` | Minggu, 4 Oktober 2026 | **Sabtu, 24 Oktober 2026, pukul 23.59 WIB** |
+| P03 — Enkapsulasi: property, setter, objek nilai `Alamat` | Sabtu, 24 Oktober 2026 | **Jumat, 30 Oktober 2026, pukul 23.59 WIB** |
+
+Tugas terstruktur P03 ada di `P03/materi/Panduan-Praktikum-P03.pdf` bagian 7: perbaiki kelas `Petugas`
+dari tugas P02 (property baca-saja, setter bervalidasi yang dipanggil dari konstruktor, objek nilai beku
+rancanganmu sendiri, komentar satu baris alasan di atas setiap property, minimal enam uji dengan empat
+`pytest.raises`). Gerbang memakai profil `p03`; tanda versi `p03-tugas`. Kerjakan P02 lebih dulu, karena
+P03 melanjutkan kelas `Petugas` dari P02.
 
 Tenggat Kelas B disesuaikan dosen pada 17 Oktober 2026 karena satu pertemuan tidak berlangsung:
 P01 menjadi 10 Oktober, P02 diperpanjang sampai 24 Oktober. P01 yang belum dikumpulkan tetap
@@ -40,6 +47,9 @@ P01/
         └── AI_USAGE.md         WAJIB, termasuk bila tidak memakai AI
 P02/
 └── ...
+P03/
+├── materi/                     Panduan, LKM, README, periksa_pbo.py, pyproject.toml, konstruktor_bocor.py
+└── tugas/NAMA_LENGKAP-NIM/     src/, tests/, periksa_pbo.py, pyproject.toml, AI_USAGE.md, REFLEKSI.md, LKM-P03.pdf
 ```
 
 ## Cara mengumpulkan tugas
