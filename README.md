@@ -10,7 +10,19 @@ Prodi Teknik Informatika, Fakultas Teknik, Universitas Pahlawan Tuanku Tambusai 
 | P01 — Lingkungan kerja dan tiga gerbang | sudah berjalan | Sabtu, 10 Oktober 2026, pukul 23.59 WIB (sudah lewat) |
 | P02 — Kelas `Penyewa` dan `AlatTani` | Minggu, 4 Oktober 2026 | Sabtu, 24 Oktober 2026, pukul 23.59 WIB (sudah lewat) |
 | P03 — Enkapsulasi: property, setter, objek nilai `Alamat` | Sabtu, 24 Oktober 2026 | Jumat, 30 Oktober 2026, pukul 23.59 WIB (sudah lewat) |
-| P04 — Milik kelas dan milik objek: konstanta, `classmethod`, `staticmethod` | Sabtu, 31 Oktober 2026 | **Jumat, 6 November 2026, pukul 23.59 WIB** |
+| P04 — Milik kelas dan milik objek: konstanta, `classmethod`, `staticmethod` | Sabtu, 31 Oktober 2026 | Jumat, 6 November 2026, pukul 23.59 WIB (sudah lewat) |
+| P05 — Relasi antar kelas: asosiasi, agregasi, komposisi, diagram kelas | Sabtu, 7 November 2026 | **Jumat, 13 November 2026, pukul 23.59 WIB** |
+
+**P05** dikerjakan per orang di `P05/tugas/NAMA_LENGKAP-NIM/`, rinciannya di `P05/materi/Panduan-Praktikum-P05.pdf`:
+kelas `Sewa` dan `BarisSewa` (komposisi, `BarisSewa` menyimpan salinan kode, nama, dan tarif alat), property `baris`
+yang mengembalikan tuple, diagram `diagram/kelas-p05.png` yang sesuai dengan kode, minimal 34 fungsi uji termasuk uji
+asosiasi dan uji komposisi (uji yang membuktikan daftar baris tidak dapat disusupi dari luar). Gerbang memakai profil
+`p05`; tanda versi `p05`. Hapus `tanpa_salinan.py` dan `komposisi_bocor.py` sebelum commit. `AI_USAGE.md` dan
+`LKM-P05.pdf` wajib ada di folder tugas.
+
+**Proyek kelompok dimulai di P05** (Panduan P05 bagian 7): kelompok tiga sampai empat orang, mitra nyata di Kampar atau
+sekitarnya, bukan kasus UPJA atau penyewaan alat pertanian, dan kasus wajib disetujui dosen. Milestone 1 dikumpulkan di
+repositori kelompok dengan tanda versi `m1`, tenggatnya pada Pertemuan 6.
 
 **P04 berisi Tugas 1 (individu)** yang dinilai terpisah pada nilai akhir — kerjakan sendiri; kemiripan kode
 ditelusuri lewat riwayat commit. Rinciannya di `P04/materi/Panduan-Praktikum-P04.pdf` bagian 7: kelas `Kios`
@@ -60,6 +72,9 @@ P03/
 P04/
 ├── materi/                     Panduan, LKM, README, periksa_pbo.py, pyproject.toml, default_berbagi.py, pencacah_bocor.py
 └── tugas/NAMA_LENGKAP-NIM/     src/, tests/, periksa_pbo.py, pyproject.toml, AI_USAGE.md, REFLEKSI.md, LKM-P04.pdf
+P05/
+├── materi/                     Panduan, LKM, README, periksa_pbo.py, pyproject.toml, tanpa_salinan.py, komposisi_bocor.py, diagram/
+└── tugas/NAMA_LENGKAP-NIM/     src/, tests/, diagram/kelas-p05.png, periksa_pbo.py, pyproject.toml, AI_USAGE.md, LKM-P05.pdf
 ```
 
 ## Cara mengumpulkan tugas
