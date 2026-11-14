@@ -11,7 +11,8 @@ Prodi Teknik Informatika, Fakultas Teknik, Universitas Pahlawan Tuanku Tambusai 
 | P02 — Kelas `Penyewa` dan `AlatTani` | Minggu, 4 Oktober 2026 | Sabtu, 24 Oktober 2026, pukul 23.59 WIB (sudah lewat) |
 | P03 — Enkapsulasi: property, setter, objek nilai `Alamat` | Sabtu, 24 Oktober 2026 | Jumat, 30 Oktober 2026, pukul 23.59 WIB (sudah lewat) |
 | P04 — Milik kelas dan milik objek: konstanta, `classmethod`, `staticmethod` | Sabtu, 31 Oktober 2026 | Jumat, 6 November 2026, pukul 23.59 WIB (sudah lewat) |
-| P05 — Relasi antar kelas: asosiasi, agregasi, komposisi, diagram kelas | Sabtu, 7 November 2026 | **Jumat, 13 November 2026, pukul 23.59 WIB** |
+| P05 — Relasi antar kelas: asosiasi, agregasi, komposisi, diagram kelas | Sabtu, 7 November 2026 | Jumat, 13 November 2026, pukul 23.59 WIB (sudah lewat) |
+| P06 — Pewarisan: hierarki `AlatTani`, `super()`, `__str__`/`__repr__`/`__eq__`/`__hash__` | Sabtu, 14 November 2026 | **Jumat, 20 November 2026, pukul 23.59 WIB** |
 
 **P05** dikerjakan per orang di `P05/tugas/NAMA_LENGKAP-NIM/`, rinciannya di `P05/materi/Panduan-Praktikum-P05.pdf`:
 kelas `Sewa` dan `BarisSewa` (komposisi, `BarisSewa` menyimpan salinan kode, nama, dan tarif alat), property `baris`
@@ -19,6 +20,17 @@ yang mengembalikan tuple, diagram `diagram/kelas-p05.png` yang sesuai dengan kod
 asosiasi dan uji komposisi (uji yang membuktikan daftar baris tidak dapat disusupi dari luar). Gerbang memakai profil
 `p05`; tanda versi `p05`. Hapus `tanpa_salinan.py` dan `komposisi_bocor.py` sebelum commit. `AI_USAGE.md` dan
 `LKM-P05.pdf` wajib ada di folder tugas.
+
+**P06** dikerjakan per orang di `P06/tugas/NAMA_LENGKAP-NIM/`, rinciannya di `P06/materi/Panduan-Praktikum-P06.pdf`:
+hierarki `AlatTani` dengan turunan `Traktor`, `PompaAir`, dan `Perontok` (setiap turunan memanggil `super().__init__()`
+dan memakai pola penimpaan yang berbeda), induk menulis `__str__`, `__repr__`, `__eq__`, dan `__hash__`, ada uji bahwa
+objek dapat masuk set dan menjadi kunci dict, minimal 52 fungsi uji. Gerbang memakai profil `p06`; tanda versi `p06`.
+Hapus `lupa_super.py` dan `eq_tanpa_hash.py` sebelum commit.
+
+**P06 berisi Tugas 2 (individu)** yang dinilai terpisah (Panduan P06 bagian 8): hierarki `Pegawai` untuk instansi di
+Kampar, satu induk dan tiga turunan dengan pola penimpaan berbeda, induk menulis keempat method khusus dengan
+perbandingan berdasar atribut identitas, minimal dua belas uji dengan empat penolakan dan satu uji kunci dict. Tambahkan
+juga `dari_baris_csv` pada `PompaAir` dan `Perontok`. Tanda versi `p06-tugas2`; tenggat sama dengan P06.
 
 **Proyek kelompok dimulai di P05** (Panduan P05 bagian 7): kelompok tiga sampai empat orang, mitra nyata di Kampar atau
 sekitarnya, bukan kasus UPJA atau penyewaan alat pertanian, dan kasus wajib disetujui dosen. Milestone 1 dikumpulkan di
@@ -75,6 +87,9 @@ P04/
 P05/
 ├── materi/                     Panduan, LKM, README, periksa_pbo.py, pyproject.toml, tanpa_salinan.py, komposisi_bocor.py, diagram/
 └── tugas/NAMA_LENGKAP-NIM/     src/, tests/, diagram/kelas-p05.png, periksa_pbo.py, pyproject.toml, AI_USAGE.md, LKM-P05.pdf
+P06/
+├── materi/                     Panduan, LKM, README, periksa_pbo.py, pyproject.toml, lupa_super.py, eq_tanpa_hash.py
+└── tugas/NAMA_LENGKAP-NIM/     src/, tests/, periksa_pbo.py, pyproject.toml, AI_USAGE.md, LKM-P06.pdf (Tugas 2 Pegawai ikut di sini)
 ```
 
 ## Cara mengumpulkan tugas
